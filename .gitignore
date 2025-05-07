@@ -1,0 +1,8 @@
+# any csv or json file
+
+**/*.csv
+**/*.json
+.*.csv
+.csv
+.*.json
+*.json
