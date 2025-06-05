@@ -6,3 +6,8 @@
 .csv
 .*.json
 *.json
+**/*.jsonl
+.*.csv
+.csv
+.*.jsonl
+*.jsonl
