@@ -11,3 +11,8 @@
 .csv
 .*.jsonl
 *.jsonl
+
+**/*.pt
+.*.pt
+.pt
+*.pt
