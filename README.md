@@ -1,7 +1,9 @@
 # IIC3633-Proyecto
+
 Proyecto hecho para el curso Sistemas Recomendadores IIC3633-1-2025.
 
-El proyecto fue realizado con **Python 3.10.12** y requiere las siguientes librerías:
+El proyecto fue realizado con **Python 3.11.9** (recomendado utilizar CUDA o un entorno en Colab) y requiere las siguientes librerías:
+
 - `pandas`
 - `numpy`
 - `scikit-learn`
@@ -9,15 +11,16 @@ El proyecto fue realizado con **Python 3.10.12** y requiere las siguientes libre
 - `matplotlib`
 - `seaborn`
 - `prettytable`
+- `tqdm`
+- `torch`
+- `torch-geometric`
 
 El proyecto consiste en los siguientes archivos:
-- `proyecto.ipynb`: Notebook que contiene el analisis exploratorio de datos y la implementación de los modelos de recomendación.
-- `preprocessFiles.py`: Script que convierte el archivo videogames.json a un archivo CSV y lo limpia. (Con tal de reducir el tamaño del archivo y facilitar su uso). Aunque se mantiene el original por si se utiliza en el futuro.
-- `videogame_rating.csv`: Archivo CSV que contiene los datos de videojuegos y sus ratings. Contiene 2.5 millones de filas y 4 columnas. Las columnas son:
-    - `userId`: ID del usuario.
-    - `itemId`: ID del videojuego.
-    - `rating`: Rating del videojuego por parte del usuario.
-    - `timestamp`: Timestamp del rating.
-- `videogames.csv`: Archivo CSV que contiene los datos de videojuegos.
-    - `itemId`: ID del videojuego.
-    - `name`: Nombre del videojuego.
+
+- `proyecto.ipynb`: Notebook que contiene el avance de proyecto del código del proyecto. Contiene 4 secciones principales:
+
+  1. **Introducción**: Descripción del cuaderno
+  2. **Pasos preliminares**: Instalación de dependencias, carga de datos, preprocesamiento y análisis de datos.
+  3. **Modelos**: Se crean las clases y funciones necesarias para los modelos de recomendación (Random, Popular, DeepFM, Content Based y LightGCN)
+  4. **Evaluación**: Donde se evalúa el modelo.
+- `data/`: Carpeta que contiene los datos utilizados en el proyecto. (Deben ser descargados desde [aquí](https://amazon-reviews-2023.github.iot) en la sección de **Video_Games -> review, meta**.
