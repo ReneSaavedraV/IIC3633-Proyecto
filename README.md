@@ -17,10 +17,10 @@ El proyecto fue realizado con **Python 3.11.9** (recomendado utilizar CUDA o un 
 
 El proyecto consiste en los siguientes archivos:
 
-- `proyecto.ipynb`: Notebook que contiene el avance de proyecto del código del proyecto. Contiene 4 secciones principales:
+- `proyecto_final.ipynb`: Notebook que contiene el avance de proyecto del código del proyecto. Contiene 4 secciones principales:
 
   1. **Introducción**: Descripción del cuaderno
   2. **Pasos preliminares**: Instalación de dependencias, carga de datos, preprocesamiento y análisis de datos.
-  3. **Modelos**: Se crean las clases y funciones necesarias para los modelos de recomendación (Random, Popular, DeepFM, Content Based y LightGCN)
+  3. **Modelos**: Se crean las clases y funciones necesarias para los modelos de recomendación (Random, Popular, LightFM y LightGCN)
   4. **Evaluación**: Donde se evalúa el modelo.
-- `data/`: Carpeta que contiene los datos utilizados en el proyecto. (Deben ser descargados desde [aquí](https://amazon-reviews-2023.github.iot) en la sección de **Video_Games -> review, meta**.
+- `data/`: Carpeta que contiene los datos utilizados en el proyecto.
